@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linearLayoutPhoto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom="20dp"
+    android:paddingRight="20dp"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="153dp"
+        android:layout_height="115dp">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="20dp">
+            <ImageView
+                android:id="@+id/photo_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape_photo"
+                android:src="@drawable/photo_temp"/>
+            <TextView
+                android:id="@+id/time_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17dp"
+                android:layout_marginBottom="23dp"
+                android:textSize="18dp"
+                android:textFontWeight="500"
+                android:layout_gravity="bottom"
+                android:fontFamily="@font/alegreya_sans"
+                android:text="11:00"/>
+        </androidx.cardview.widget.CardView>
+
+
+
+    </FrameLayout>
+
+
+</LinearLayout>

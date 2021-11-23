@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="add_button_height">115dp</dimen>
+    <dimen name="add_button_width">153dp</dimen>
+    <dimen name="add_button_margin_top">22dp</dimen>
+
+    <dimen name="add_plus_padding_left">65dp</dimen>
+    <dimen name="add_plus_padding_top">200dp</dimen>
+</resources>
